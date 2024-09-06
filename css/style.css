@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    display: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+.cabecalho{
+    display: flex; 
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+}
+.cabelhaco ul{
+    display: flex;
+    gap: 20px;
+}
+.cabecalho a{
+    color: brown;
+}
+.cabecalho a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
