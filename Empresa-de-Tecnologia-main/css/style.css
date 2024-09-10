@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    display: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    align-items: center;
+    display: flex; /*display flex para deixar um alinhado ao outro*/
+    justify-content: space-between; /*para deixar o cabecalho nas pontas da pagina*/
+    background-color: black;
+    padding: 30px 60px; /*padding espaçamento interno e margin espacamento externo das letras*/
+    color: #fff;
+}
+.cabelhaco ul{
+    display: flex;/*sempre para selecionar o elemento da pagina html e necessario colocar . e o item*/
+    gap: 20px;
+}
+.cabecalho a{
+    color: rgb(255, 255, 255);
+}
+.cabecalho a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    padding: 30px 60px
+}
+.pai-dos-lados{
+    display: flex;
+}
